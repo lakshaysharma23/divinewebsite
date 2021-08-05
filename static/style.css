@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap');
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+#navbar img {
+    position: absolute;
+    display: flex;
+    height: 71px;
+    /* width:150px; */
+    padding: 21px 28px;
+    margin: -22px -16px;
+    
+}
+
+#navbar{
+    /* background-image: linear-gradient(to right, white , black); */
+    background-color: rgb(38, 39, 39);
+    padding: 11px 4px;
+    font-family: 'Titillium Web', sans-serif;
+    
+    color: white;
+}
+
+
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 4px 50px;
+    margin:10px 20px;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+
+#navbar li a:hover{
+    
+    text-decoration: none;
+    padding: 4px 50px;
+    color:white;
+    background-color: rgb(212, 24, 24); 
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    /* margin: 30px; */
+}
+
+
+    
+
+#introSection{ 
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80px;
+    flex-direction: column;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: center / cover no-repeat url("../static/bgim.jpg");
+    background-size:cover;
+    height:450px ;
+    background-color:black;
+    padding-bottom: 50px;
+    
+    
+    
+}
+#introSection:hover{ 
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80px;
+    flex-direction: column;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: center / cover no-repeat url("../static/bgim.jpg");
+    background-size:cover;
+    height:450px ;
+    background-color:black;
+    padding-bottom: 50px;
+    
+    
+    
+}
+
+.underintro{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    margin: 12px 359px;
+    text-align: center;
+}
+
+/* .underintro:hover{
+    transition-duration: 1s;
+    font-size: 26px;
+    margin: 12px 359px;
+    text-align: center;
+    
+    
+} */
+
+
+#certifications{
+    height: 700px;
+    background-image:linear-gradient(rgb(212, 24, 24),rgb(53, 53, 53) );;
+    
+     
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+#missionSection{height: 700px;
+    background-color: rgb(212, 24, 24); 
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+.underMission{
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 60px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3{font-family: 'Titillium Web', sans-serif;
+    color:white;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 10px;
+    
+}
+.card{
+    font-size: 17px;
+    display: inline-block;
+    border: 2px solid white;
+    height:400px;
+    width: 30%;
+    margin: 14px 23px;
+    background-color: rgb(212, 24, 24);
+    border-radius: 10px;   
+    margin-top: 50px;
+}
+.card:hover{
+    transition-duration: 1s;
+    display: inline-block;
+    border: 2px solid white;
+    height:400px;
+    width: 30%;
+    margin: 14px 23px;
+    background-color:rgb(0, 0, 0); 
+    border-radius: 10px; 
+    margin-top: 50px; 
+}
+
+.card-box{
+    height: 325px;
+    background-color: black;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.card-img{
+    height: 60px;
+    padding: 0 14px;
+    margin: 5px 6px;
+}
+
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    color: white;
+    padding:15px;
+    font-size: 20px;
+}
+.card-content:hover{
+    color: white;
+    padding:15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ctf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#ctf img{
+    padding:100px;
+    height:500px;
+    transition-duration: 1s;
+    
+}
+
+#ctf img:hover{
+    padding:100px;
+    /* height:500px; */
+    transform:scale(1.5)
+    
+}
+
+
+#footer{
+    color: white;
+    text-align: center;
+    height: 25px;
+    background-color: rgb(10, 10, 2);
+    font-family: 'Titillium Web', sans-serif;
+}

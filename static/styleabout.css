@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(rgb(53, 53, 53), rgb(212, 24, 24) );
+}
+
+
+h1{
+    color: white;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-shadow:1px 1px red;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    height:450px;
+    width: 70%;
+    border-radius: 10px;
+}
+.aboutinfo{
+    padding: 69px 230px;
+}

@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title DMPL
+    style
+      include ../static/style.css
+  body
+
+    nav#navbar
+        img(src="../static/divinelogo1.jpg")
+        
+        ul    
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Gallery]
+            li #[a(href="/") Contact Us]
+    
+    section#introSection
+        div Divine Meditech 
+        div.underintro DMPL is an authentic Indian manufacturer specialized in the manufacturing of high end medical devices for various endoscopy applications. We support "Make in India" campaign initiated by Govt. of India and aim to be a leading Indian manufacturer.
+
+    section#missionSection 
+        h2 Our Mission 
+        div.underMission 
+            |   Our Mission at DMPL is to  wholeheartedly manufacture the most efficient and high end devices for the sphere of endoscopy while adhering to International quality management systems and goods manufacturing practices.
+
+        div.card
+            h3 Make In India
+            div.card-box
+                div.card-img#makein
+                    img(src="static/min.png")
+                div.card-content
+                    p We believe in contributing to the Make in India campaign by manufacturing devices that match international standards yet are lower in price than their foriegn competitors. The Products made in India have seen a drastic increase in their quality overtime.
+        div.card
+            h3 Premium Quality
+            div.card-box
+                div.card-img
+                    img(src="static/pm.png")
+                div.card-content
+                    p We ensure that the quality of products we provide is top notch and durable while also tuning it in such a way so that it provides efficiency as well as is aesthetically soothing to the view.
+        div.card
+            h3 Quick Customer Support
+            div.card-box
+                div.card-img
+                    img(src="static/cs.png")
+                div.card-content
+                    p We believe in contributing to the Make in India campaign by manufacturing devices that match international standards yet are lower in price than their foriegn competitors. The Products made in India have seen a drastic increase in their quality overtime.
+        
+
+
+    section#certifications
+        h2 Certifications 
+        div#ctf
+            img(src="../static/cer1.jpeg")
+            img(src="../static/cer2.jpeg")
+            img(src="../static/cer3.jpeg")
+
+    footer#footer 
+        | Copyright © 2021 - Divine Meditech All Rights Reserved 
+
+    script
+      include ../static/index.js 
